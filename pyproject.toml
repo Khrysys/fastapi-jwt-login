@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-jwt-login"
+version = "0.1.0"
+description = ""
+authors = ["Michael Piccirillo <70709374+Khrysys@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.95.1"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = "^1.7.4"
+
+[tool.poetry.group.dev.dependencies]
+uvicorn = "^0.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
