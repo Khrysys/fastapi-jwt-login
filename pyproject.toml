@@ -6,7 +6,7 @@ authors = ["Michael Piccirillo <70709374+Khrysys@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-fastapi = "^0.95.1"
+fastapi = "^0.103.1"
 python-jose = {extras = ["cryptography"], version = "^3.3.0"}
 passlib = "^1.7.4"
 
